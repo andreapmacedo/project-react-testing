@@ -3,7 +3,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import About from '../components/About';
 
-describe('Testa o componente About', () => {
+describe('Testa o componente About.js', () => {
   test('Teste se a página contém as informações sobre a Pokédex', () => {
     render(<About />);
 

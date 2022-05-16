@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event';
 import renderWithRouter from '../RenderWithRouter';
 import App from '../App';
 
-describe('Testa o componente App', () => {
+describe('Testa o componente App.js', () => {
   test('Se há um conjunto de links de navegação', () => {
     renderWithRouter(<App />);
     const links = ['Home', 'About', 'Favorite Pokémons'];
